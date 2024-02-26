@@ -1,0 +1,13 @@
+import { CRIMENT, INCRIMENT } from "./Type"
+
+export const Hrementaction=()=>{
+    return{
+        type:CRIMENT
+    }
+};
+
+export const Ancrementaction=()=>{
+    return{
+        type:INCRIMENT
+    }
+}
