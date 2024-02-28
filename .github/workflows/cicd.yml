@@ -11,8 +11,7 @@
           uses: actions/checkout@v3
         - name: Login to Docker Hub
           run: docker login -u lamyaahajib98369 -p Lamiaa@hajib10
-        - name: Build Docker Image
-          run: docker build -t lamyaahajib98369/reactjs-app .
+
         
         
     
