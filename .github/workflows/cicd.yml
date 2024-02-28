@@ -12,6 +12,7 @@ jobs:
       - name: Login to Docker Hub
         run: docker login -u lamyaahajib98369 -p Lamiaa@hajib10
       
-      
+      - name: Publish image to docker hub
+        run: docker push integrationninjas/reactjs-app:latest   
 
   
